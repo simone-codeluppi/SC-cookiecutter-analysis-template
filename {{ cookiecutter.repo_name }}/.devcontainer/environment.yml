@@ -1,0 +1,35 @@
+name: general-development-env
+channels:
+  - defaults
+  - fastai
+  - conda-forge
+  - pyviz
+dependencies:
+  - cookiecutter
+  - python-json-logger
+  - dask
+  - ipykernel
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - jupyterlab
+  - matplotlib
+  - zarr
+  - pyarrow
+  - Cython
+  - pynndescent
+  - ipympl
+  - leidenalg
+  - GitPython
+  - snappy
+  - python-snappy
+  - openpyxl
+  - dask-labextension
+  - nbdev
+  - pandera
+  - panel
+  - pip:
+      - torch
+      - torchvision
+      - pandera
+      - attrs
