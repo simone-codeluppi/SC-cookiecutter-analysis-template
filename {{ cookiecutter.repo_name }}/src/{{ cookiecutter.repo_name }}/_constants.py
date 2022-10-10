@@ -1,5 +1,5 @@
 from enum import Enum
-from _logger_utils import formatted_logger
 
-logger = formatted_logger()
-
+class logger_settings(Enum):
+    logs_path:str =  "../../logs/"
+    logs_level:str = "DEBUG"
