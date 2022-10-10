@@ -6,7 +6,6 @@ channels:
   - pyviz
 dependencies:
   - cookiecutter
-  - python-json-logger
   - dask
   - ipykernel
   - scipy
