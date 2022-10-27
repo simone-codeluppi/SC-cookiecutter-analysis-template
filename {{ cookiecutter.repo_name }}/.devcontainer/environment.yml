@@ -27,8 +27,9 @@ dependencies:
   - nbdev
   - pandera
   - panel
+  - pandas-profiling
   - pip:
       - torch
       - torchvision
-      - pandera
       - attrs
+      - black

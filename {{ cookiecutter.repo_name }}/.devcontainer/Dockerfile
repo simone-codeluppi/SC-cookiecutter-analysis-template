@@ -33,3 +33,13 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 # RUN /bin/bash -c "yes | conda env create -f /tmp/conda-tmp/environment.yml"
 
 
+# Create python environment
+# exec bash is required for restarting bash that is required after conda init 
+# RUN source /opt/miniconda/etc/profile.d/conda.sh &&\
+#     conda create --name probes_env python=3.9 pip -y &&\
+#     conda init bash &&\
+#     exec bash &&\
+#     conda activate --stack /opt/miniconda/envs/probes_env &&\
+#     cd /opt/probe_designer &&\
+#     pip install requirements.txt &&\
+#     pip install -e .
