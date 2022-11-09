@@ -28,8 +28,10 @@ dependencies:
   - pandera
   - panel
   - pandas-profiling
+  - tqdm
   - pip:
       - torch
       - torchvision
       - attrs
       - black
+      - snakeviz
